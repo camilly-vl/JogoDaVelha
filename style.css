@@ -1,0 +1,198 @@
+body{
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+h1{
+  margin-top: 60px;
+  font-size: 50px;
+}
+
+#temasTitulo{
+  transform: rotate(270deg);
+  position: absolute;
+  left: 490px;
+  bottom: 500px;
+  font-size: 30px;
+}
+
+.temas{
+  background-color: rgb(252, 252, 252);
+  color: transparent;
+  width: 100px;
+  height: 550px;
+  position: absolute;
+  left: 600px;
+  bottom: 269px;
+  border-radius: 15px;
+}
+
+.tema1 {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px;
+  width: 40px;
+  height: 58px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.tema2 {
+  background-color: lightpink;
+  padding: 20px;
+  margin: 10px;
+  width: 40px;
+  height: 58px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.tema3 {
+  background-color: rgb(255, 255, 147);
+  padding: 20px;
+  margin: 10px;
+  width: 40px;
+  height: 58px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.tema4 {
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 10px;
+  width: 40px;
+  height: 58px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.tema5 {
+  background-color: lightsalmon;
+  padding: 20px;
+  margin: 10px;
+  width: 40px;
+  height: 58px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.grade{
+  background-color: lightblue;
+  margin-top: 20px;
+  height: 540px;
+  width: 500px;
+  margin-left: 705px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#placar{
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  border-radius: 15px;
+  margin-left: 780px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: lightblue;
+}
+
+#linha{
+  background-color: whitesmoke;
+  color: whitesmoke;
+  width: 5px;
+  height: 85px;
+  font-size: 1px;
+  position: absolute;
+  left: 952px;
+}
+
+#linha1{
+  background-color: whitesmoke;
+  color: whitesmoke;
+  width: 3px;
+  height: 85px;
+  font-size: 1px;
+  position: absolute;
+  left: 815px;
+}
+
+#linhaT1{
+  transform: rotate(270deg);
+  height: 200px;
+  position: absolute;
+  left: 870px;
+  bottom: 122px;
+}
+
+#linhaT2{
+  transform: rotate(90deg);
+  height: 200px;
+  position: absolute;
+  left: 995px;
+  bottom: 122px;
+}
+
+#linha2{
+  background-color: whitesmoke;
+  color: whitesmoke;
+  width: 3px;
+  height: 85px;
+  font-size: 1px;
+  position: absolute;
+  left: 1095px;
+}
+
+#pontosX{
+  margin: 10px;
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+#pontosO{
+  margin: 10px;
+  font-size: 60px;
+  margin-left: 105px;
+}
+
+.linha1{
+  padding-top: 35px;
+}
+
+.quadrado{
+  text-align: center;
+  width: 50px;
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+.jogador{
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+
+.vencedor{
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+button{
+  margin-top: 10px;
+  width: 330px;
+  height: 30px;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Bangers', cursive;
+  border-style: none;
+  font-size: 18px;
+}
+

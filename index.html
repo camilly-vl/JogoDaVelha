@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da velha</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Jogo da velha</h1>
+
+  <h3 id="temasTitulo">Temas do jogo</h3>
+  <div class="temas">
+    <div class="tema1" onclick="tema1()">-</div>
+    <div class="tema2" onclick="tema2()">-</div>
+    <div class="tema3" onclick="tema3()">-</div>
+    <div class="tema4" onclick="tema4()">-</div>
+    <div class="tema5" onclick="tema5()">-</div>
+  </div>
+
+  <!-- Grade do jogo -->
+  <div class="grade" id="grade">
+
+    <div class="linha1">
+      <!-- linha 1 -->
+      <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+      <!-- linha 2 -->
+      <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+      <!-- linha 3 -->
+      <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+  </div>
+
+  <div id="placar">
+      <div id="linhaT1">Placar X</div>
+      <div id="linha1">-</div>
+      <div id="pontosX">0</div>
+      <div id="linha">-</div>
+      <div id="linha2">-</div>
+      <div id="linhaT2">Placar O</div>
+      <div id="pontosO">0</div>
+  </div>
+
+  <!-- Informações do jogador atual -->
+
+  <div class="jogador">
+    <label class="jogador">
+      Jogador:
+    </label>
+    <label id="jogador-selecionado">
+
+    </label>
+  </div>
+
+  <!-- Vencedor do jogo -->
+
+  <div class="vencedor">
+    <label class="vencedor">
+      Vencedor:
+    </label>
+    <label id="vencedor-selecionado">
+
+    </label>
+  </div>
+
+  <!-- Botão de reiniciação -->
+
+  <div>
+    <button id="botao" onclick="reiniciar()">
+      Reiniciar
+    </button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
